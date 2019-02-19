@@ -1,0 +1,12 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(74, 111, 180);
+}
+
+h1,label {
+    color: #ffff
+}
+
+.form-group {
+    padding: 0px 25px;
+}
