@@ -10,7 +10,27 @@ var app = new Vue({
                     {
                         title   :   'Lasagna',
                         text    :   'Bitch Bitch',
-                        date    :   Date.now().toLocaleString()
+                        date    :   new Date(Date.now()).toLocaleString()
+                    },
+                    {
+                        title   :   'Lasagna',
+                        text    :   'Bitch Bitch',
+                        date    :   new Date(Date.now()).toLocaleString()
+                    },
+                    {
+                        title   :   'Lasagna',
+                        text    :   'Bitch Bitch',
+                        date    :   new Date(Date.now()).toLocaleString()
+                    },
+                    {
+                        title   :   'Lasagna',
+                        text    :   'Bitch Bitch',
+                        date    :   new Date(Date.now()).toLocaleString()
+                    },
+                    {
+                        title   :   'Lasagna',
+                        text    :   'Bitch Bitch',
+                        date    :   new Date(Date.now()).toLocaleString()
                     },
         ]   
     },
@@ -20,10 +40,13 @@ var app = new Vue({
             this.notes.push({
                 title,
                 text,
-                date    :   Date.now().toLocaleString()
+                date    :   new Date(Date.now()).toLocaleString()
             })
             this.note.title = ''
             this.note.text = ''
+        },
+        removeNote(index)   {
+            this.notes.splice(index, 1);
         }
     },
 })

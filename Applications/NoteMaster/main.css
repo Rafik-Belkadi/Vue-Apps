@@ -3,10 +3,20 @@ body {
     background-color: rgb(74, 111, 180);
 }
 
-h1,label {
+h1,h2,label {
     color: #ffff
 }
 
 .form-group {
     padding: 0px 25px;
+}
+.note   {
+    padding: 5px 25px;
+}
+.card {
+    background-color: lightgreen;
+    border: 2px solid darkslategrey;
+}
+.card-block {
+    padding: 0px 5px;
 }

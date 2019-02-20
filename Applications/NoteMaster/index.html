@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Notemaster</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://unpkg.com/vue"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -29,6 +29,25 @@
                     <button class="btn btn-success" v-on:click="addNote">Submit</button>
                 </div>
             </div>
+        </div>
+        <h2 class="text-center">   My notes </h2>
+        <div class="row">
+            <div class="col-3 note" v-for="(note,index) in notes">
+                <div class="card">
+                    <button style="padding-left: 90%;" class="close" @click="removeNote(index)">&times;</button>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                            {{note.title}}
+                        </h4>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            {{note.date}}
+                        </h6>
+                        <p class="card-text">
+                            {{note.text}}
+                        </p>
+                    </div>
+                </div>
+            </div>            
         </div>
     </div>
 
