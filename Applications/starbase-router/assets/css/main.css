@@ -10,14 +10,15 @@ body {
     color: aliceblue;
     margin-top: 60px;
 }
-.character-card {
+
+.link, .link:hover, .link:active, .link:visited {
+    color : #4FC08D
+}
+.item-card {
     border: 2px solid #4FC08D;
     border-radius: 4px;
     cursor: pointer;
     margin-top : 5px;
-    padding: 5px 0px;
-}
-
-.link, .link:hover, .link:active, .link:visited {
-    color : #4FC08D
+    padding: 5px;
+    padding-bottom: 10px;
 }
