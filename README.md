@@ -2,7 +2,7 @@
 ## A few apps made with Vue js for learning purpose only :heart:
 
 ### [Starbase-Router](https://github.com/Rafik-Belkadi/Vue-Apps/tree/master/Applications/starbase-router) :rocket:
-![Starbase-Router](https://github.com/Rafik-Belkadi/Vue-Apps/tree/master/Applications/Screenshots)
+![Starbase-Router](https://github.com/Rafik-Belkadi/Vue-Apps/blob/master/Applications/Screenshots/Starbase-Router.png)
 
 ### [Simple-Starbase](https://github.com/Rafik-Belkadi/Vue-Apps/tree/master/Applications/starbase) :rocket:
 ![Simple-Starbase](https://github.com/Rafik-Belkadi/Vue-Apps/blob/master/Applications/Screenshots/Starbase.png)
